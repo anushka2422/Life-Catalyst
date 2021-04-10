@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6EDED"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6CB3BC"
+            android:gravity="center|center_vertical"
+            android:text="CONTENT"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/online_lib"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#FFFFFF"
+            android:text="Online Library"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3F51B5"
+            app:rippleColor="#FFFFFF"
+            app:strokeColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/meditation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEDITATION"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/music_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MUSIC PLAYER"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/chef_corner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHEF CORNER"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/home_workout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOME WORKOUT"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/podcasts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PODCASTS"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/games"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GAMES"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/sports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPORTS"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3F51B5" />
+
+        <Button
+            android:id="@+id/mental_health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MENTAL HEALTH"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:backgroundTint="#3F51B5" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
