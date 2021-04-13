@@ -10,44 +10,45 @@ import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
      TextView textView3;
-     Button button4, button5, button6, button7, button8, button9, button10, button11,home_workout;
+
+     Button online_lib, meditation, music_player, chef_corner,home_workout,games,mental_health,sports;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         Intent intent = getIntent();
         textView3 = findViewById(R.id.textView3);
-        button4 = findViewById(R.id.online_lib);
-        button5 = findViewById(R.id.meditation);
-        button6 = findViewById(R.id.music_player);
-        button7 = findViewById(R.id.chef_corner);
-        button8 = findViewById(R.id.podcasts);
-        button9 = findViewById(R.id.games);
-        button10 = findViewById(R.id.sports);
-        button11 = findViewById(R.id.mental_health);
+        online_lib = findViewById(R.id.online_lib);
+        meditation = findViewById(R.id.meditation);
+        music_player = findViewById(R.id.music_player);
+        chef_corner = findViewById(R.id.chef_corner);
         home_workout = findViewById(R.id.home_workout);
-        button4.setOnClickListener(new View.OnClickListener() {
+        games = findViewById(R.id.games);
+        sports = findViewById(R.id.sports);
+        mental_health = findViewById(R.id.mental_health);
+
+        online_lib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
                 startActivity(intent);
             }
         });
-        button5.setOnClickListener(new View.OnClickListener() {
+        meditation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity4.class);
                 startActivity(intent);
             }
         });
-        button6.setOnClickListener(new View.OnClickListener() {
+        music_player.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity5.class);
                 startActivity(intent);
             }
         });
-        button7.setOnClickListener(new View.OnClickListener() {
+        chef_corner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity6.class);
@@ -57,32 +58,26 @@ public class MainActivity2 extends AppCompatActivity {
         home_workout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity2.this,MainActivity11.class);
-                startActivity(intent);
-            }
-        });
-        button8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity7.class);
                 startActivity(intent);
             }
         });
-        button9.setOnClickListener(new View.OnClickListener() {
+
+        games.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity8.class);
                 startActivity(intent);
             }
         });
-        button10.setOnClickListener(new View.OnClickListener() {
+        sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity9.class);
                 startActivity(intent);
             }
         });
-        button11.setOnClickListener(new View.OnClickListener() {
+        mental_health.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity10.class);

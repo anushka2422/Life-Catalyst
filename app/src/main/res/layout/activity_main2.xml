@@ -81,15 +81,6 @@
             app:backgroundTint="#3F51B5" />
 
         <Button
-            android:id="@+id/podcasts"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="PODCASTS"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            app:backgroundTint="#3F51B5" />
-
-        <Button
             android:id="@+id/games"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -102,7 +93,7 @@
             android:id="@+id/sports"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="SPORTS"
+            android:text="MISCELLANEOUS"
             android:textSize="30sp"
             android:textStyle="bold"
             app:backgroundTint="#3F51B5" />
